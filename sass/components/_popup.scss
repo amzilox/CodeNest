@@ -1,0 +1,139 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba($color-black, $alpha: 0.4);
+  backdrop-filter: blur(5px);
+  z-index: 100000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+
+  &__content {
+    width: 75%;
+    background-color: $color-white;
+    font-size: 1.7rem;
+    @include CenterByPosAbs;
+    transform: translate(-50%, -50%) scale(0.2);
+    box-shadow: 0 2rem 4rem rgba($color-black, $alpha: 0.2);
+    border-radius: 3px;
+    display: table;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.5s 0.2s;
+
+    @include QueryFor(Tab-Land) {
+    }
+  }
+
+  &__left {
+    width: 33.3333333%;
+    display: table-cell;
+    @include QueryFor(Tab-Land) {
+      width: 100%;
+      display: table-row;
+    }
+    @include QueryFor(Phone) {
+      display: none;
+    }
+  }
+
+  &__right {
+    width: 66.6666666%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3rem 5rem;
+    @include QueryFor(Tab-Land) {
+      width: 100%;
+      display: inline-table;
+    }
+
+    .heading-secondary {
+      font-size: 3rem;
+
+      @include QueryFor(Phone) {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    @include QueryFor(Tab-Land) {
+      display: inline-block;
+      width: 50%;
+    }
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+
+    -moz-column-count: 2;
+    -moz-column-gap: 4rem; // 1em = 15rem = 15px
+    -moz-column-rule: 1px solid $color-grey-light-2;
+
+    column-count: 2;
+    column-gap: 4rem; // 1em = 15rem = 15px
+    column-rule: 1px solid $color-grey-light-2;
+
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+
+    @include QueryFor(Tab-Land) {
+      font-size: 1.9rem;
+    }
+
+    @include QueryFor(Phone) {
+      -moz-column-count: 1;
+      column-count: 1;
+      font-size: 1.9rem;
+    }
+  }
+
+  // OPENING STATS
+  &:target {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &:target &__content {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    @include QueryFor(Tab-Land) {
+      transform: translate(-50%, -50%) scale(0.65);
+    }
+    @include QueryFor(Tab-Port) {
+      transform: translate(-50%, -50%) scale(0.75);
+    }
+
+    @include QueryFor(Phone) {
+      transform: translate(-50%, -50%) scaleX(0.9) scaleY(0.52);
+    }
+  }
+
+  // CLOSING STATS
+  &__close:is(:link, :visited) {
+    text-decoration: none;
+    color: $color-grey-dark;
+    position: absolute;
+    font-weight: 600;
+    top: 2.5rem;
+    right: 2.5rem;
+    line-height: 1;
+    transition: all 0.2s;
+    @include QueryFor(Tab-Land) {
+      color: $color-white;
+    }
+    @include QueryFor(Phone) {
+      color: $color-grey-dark;
+    }
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}

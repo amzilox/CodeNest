@@ -1,0 +1,190 @@
+// Keyframes :
+
+@keyframes ToTheTop {
+  0% {
+    transform: translateY(10rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes ToTheRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes ToTheLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes typed {
+  /* string 1, char 1 */
+  0%,
+  3.125% {
+    content: "C";
+  }
+  /* string 1, char 2 */
+  3.126%,
+  6.250% {
+    content: "CO";
+  }
+  /* string 1, char 3 */
+  6.251%,
+  9.375% {
+    content: "COD";
+  }
+  /* string 1, char 4 */
+  9.376%,
+  12.500% {
+    content: "CODE";
+  }
+  /* string 1, char 5 */
+  12.501%,
+  15.625% {
+    content: "CODE ";
+  }
+  /* string 1, char 6 */
+  15.626%,
+  18.750% {
+    content: "CODE Y";
+  }
+  /* string 1, char 7 */
+  18.751%,
+  21.875% {
+    content: "CODE YO";
+  }
+  /* string 1, char 8 */
+  21.876%,
+  25% {
+    content: "CODE YOU";
+  }
+  /* string 1, char 9 */
+  25.001%,
+  28.125% {
+    content: "CODE YOUR";
+  }
+  /* string 1, char 10 */
+  28.126%,
+  31.250% {
+    content: "CODE YOUR ";
+  }
+  /* string 1, char 11 */
+  31.251%,
+  34.375% {
+    content: "CODE YOUR F";
+  }
+  /* string 1, char 12 */
+  34.376%,
+  37.500% {
+    content: "CODE YOUR FU";
+  }
+  /* string 1, char 13 */
+  37.501%,
+  40.625% {
+    content: "CODE YOUR FUT";
+  }
+  /* string 1, char 14 */
+  40.626%,
+  43.750% {
+    content: "CODE YOUR FUTU";
+  }
+  /* string 1, char 15 */
+  43.751%,
+  46.875% {
+    content: "CODE YOUR FUTUR";
+  }
+  /* string 1, char 16 */
+  46.876%,
+  50% {
+    content: "CODE YOUR FUTURE";
+  }
+  /* string 1, char 17 */
+  50.001%,
+  53.125% {
+    content: "CODE YOUR FUTURE ";
+  }
+  /* string 1, char 18 */
+  53.126%,
+  56.250% {
+    content: "CODE YOUR FUTURE S";
+  }
+  /* string 1, char 19 */
+  56.251%,
+  59.375% {
+    content: "CODE YOUR FUTURE SU";
+  }
+  /* string 1, char 20 */
+  59.376%,
+  62.500% {
+    content: "CODE YOUR FUTURE SUC";
+  }
+  /* string 1, char 21 */
+  62.501%,
+  65.625% {
+    content: "CODE YOUR FUTURE SUCC";
+  }
+  /* string 1, char 22 */
+  65.626%,
+  68.750% {
+    content: "CODE YOUR FUTURE SUCCES";
+  }
+  /* string 1, char 23 */
+  68.751%,
+  71.875% {
+    content: "CODE YOUR FUTURE SUCCESS";
+  }
+  /* string 1, char 24 */
+  71.876%,
+  75% {
+    content: "CODE YOUR FUTURE SUCCESS";
+  }
+  /* string 1, char 25 */
+  75.001%,
+  78.125% {
+    content: "CODE YOUR FUTURE SUCCESS";
+  }
+  /* string 1, char 26 */
+  78.126%,
+  100% {
+    content: "CODE YOUR FUTURE SUCCESS ";
+  }
+}
+
+@keyframes beam-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+* {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+// Test

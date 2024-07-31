@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts links -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=VT323&display=swap"
+        rel="stylesheet">
+    <!-- /////////// -->
+
+    <!-- styles links -->
+    <link rel="stylesheet" href="css/linea-font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- /////////// -->
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <!-- /////////// -->
+
+    <!-- Title -->
+    <title>CodeNest | Craft Your Future in Tech</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="#section-about" class="navigation__link">
+                        <span>01</span>
+                        About
+                        Us</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#section-tour" class="navigation__link">
+                        <span>02</span>
+                        Our
+                        Courses</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#section-stories" class="navigation__link">
+                        <span>03</span>
+                        Student
+                        Success</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#popup" class="navigation__link">
+                        <span>04</span>
+                        Meet the Team</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#footer" class="navigation__link">
+                        <span>05</span>
+                        Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <header class="header">
+        <div class="header__logo-box">
+            <img src="./img/logo-white.png" alt="Website Logo" class="header__logo">
+
+        </div>
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">CodeNest</span>
+                <span class="heading-primary--sub"></span>
+            </h1>
+            <a href="#" class="btn btn--white btn--animated">Start Learning Now</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-about" id="section-about">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Explore Software Engineering with Us
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <h3 class="heading-tertiary u-margin-bottom-small">Our Vision</h3>
+                    <p class="paragraph">
+                        At CodeNest, our vision is to inspire and educate future innovators in the art and science
+                        of coding. We believe in cultivating a learning environment where curiosity and creativity drive
+                        technical excellence.
+                    </p>
+
+                    <h3 class="heading-tertiary u-margin-bottom-small">Our Approach</h3>
+                    <p class="paragraph">We provide hands-on, practical coding education tailored to meet industry
+                        demands. Our dedicated instructors and comprehensive curriculum ensure that every student gains
+                        the skills needed to succeed in the rapidly evolving field of software engineering.</p>
+                    <a href="#" class="btn-text">Learn more &rarr;</a>
+
+                </div>
+                <div class="col-1-of-2">
+                    <div class="composition">
+
+                        <img srcset="./img/code-1.jpg 300w, ./img/code-1-large.jpg 1000w" alt="Photo 1"
+                            class="composition__photo composition__photo--p1"
+                            sizes="(max-width: 56.25) 18vw, (max-width: 37.5em) 16vw, 18.75em"
+                            src="./img/code-1-large.jpg">
+
+                        <img srcset="./img/code-3.jpg 300w, ./img/code-3-large.jpg 1000w" alt="Photo 3"
+                            class="composition__photo composition__photo--p3"
+                            sizes="(max-width: 56.25) 18vw, (max-width: 37.5em) 16vw, 18.75em"
+                            src="./img/code-3-large.jpg">
+
+
+                        <img srcset="./img/code-2.jpg 300w, ./img/code-2-large.jpg 1000w" alt="Photo 2"
+                            class="composition__photo composition__photo--p2"
+                            sizes="(max-width: 56.25) 18vw, (max-width: 37.5em) 16vw, 18.75em"
+                            src="./img/code-2-large.jpg">
+
+
+
+                        <!-- <img src="./img/code-1-large.jpg" alt="Photo 1"
+                            class="composition__photo composition__photo--p1">
+                        <img src="./img/code-3-large.jpg" alt="Photo 3"
+                            class="composition__photo composition__photo--p3">
+                        <img src="./img/code-2-large.jpg" alt="Photo 2"
+                            class="composition__photo composition__photo--p2"> -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-feature">
+            <div class="row">
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-book-pencil"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Learn at Your Pace</h3>
+                        <p class="feature-box__text">
+                            Explore personalized learning paths designed for your pace. A comprehensive resources
+                            and tailored guidance to advance your skills efficiently.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-cup"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Guided Learning</h3>
+                        <p class="feature-box__text">
+                            Learn from industry professionals who bring real-world expertise to the classroom. Gain
+                            practical insights and mentorship to excel in coding.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-settings"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Hands-On Projects</h3>
+                        <p class="feature-box__text">
+                            Immerse yourself in hands-on projects that enhance your skills. Gain practical experience
+                            and expert guidance to excel in real-world applications.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-case"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Career Development</h3>
+                        <p class="feature-box__text">
+                            Drive your career forward with targeted development strategies. Access expert guidance and
+                            resources designed to propel your professional growth.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-tour" id="section-tour">
+
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Explore Software Engineering with Us
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--1">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--1">
+                                    Beginner's Bootcamp
+                                </span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>4 weeks course</li>
+                                    <li>1-on-1 mentorship</li>
+                                    <li>Hands-on projects</li>
+                                    <li>Interactive lessons</li>
+                                    <li>Difficulty: beginner</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back  card__side--back-1">
+                            <div class="card__cta">
+                                <div class="card__pricing">
+                                    <p class="card__pricing--only">Only</p>
+                                    <p class="card__pricing--value">$299</p>
+                                </div>
+                                <a href="#popup" class="btn btn--white">Enroll now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--2">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--2">
+                                    Advanced Web Dev
+                                </span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>8 weeks course</li>
+                                    <li>Group projects</li>
+                                    <li>Code reviews</li>
+                                    <li>Career support</li>
+                                    <li>Difficulty: intermediate</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back  card__side--back-2">
+                            <div class="card__cta">
+                                <div class="card__pricing">
+                                    <p class="card__pricing--only">Only</p>
+                                    <p class="card__pricing--value">$599</p>
+                                </div>
+                                <a href="#popup" class="btn btn--white">Enroll now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--3">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--3">
+                                    Full Stack Mastery
+                                </span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>12 weeks course</li>
+                                    <li>Real-world projects</li>
+                                    <li>Job placement assistance</li>
+                                    <li>Mentorship program</li>
+                                    <li>Difficulty: advanced</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back  card__side--back-3">
+                            <div class="card__cta">
+                                <div class="card__pricing">
+                                    <p class="card__pricing--only">Only</p>
+                                    <p class="card__pricing--value">$999</p>
+                                </div>
+                                <a href="#popup" class="btn btn--white">Enroll now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="u-center-text u-margin-top-big">
+                <a href="#" class="btn btn--blue">Discover all plans</a>
+            </div>
+        </section>
+        <section class="section-stories" id="section-stories">
+
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Transforming Careers with Every Code
+                </h2>
+            </div>
+            <div class="row">
+                <div class="story">
+                    <figure class="story__profile-pic">
+                        <img src="img/code-8.jpg" alt="Happy Student" class="story__img">
+                        <figcaption class="story__caption">sean Kong</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">From Beginner to Web Developer in 6 Months
+                        </h3>
+                        <p>
+                            Before joining the program, I felt lost in the tech world. But with the structured courses
+                            and real-world projects, I quickly gained confidence and skills. I landed a web developer
+                            role just three months after starting, and it’s been an incredible journey ever since.
+                        </p>
+                    </div>
+                </div>
+                <div class="story">
+                    <figure class="story__profile-pic">
+                        <img src="img/code-9.jpg" alt="Happy Student" class="story__img--2">
+                        <figcaption class="story__caption">Jurica Koletić</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">My Dream Job in Tech Became a Reality
+                        </h3>
+                        <p>
+                            Transitioning to a career in tech seemed daunting, but this program provided the roadmap I
+                            needed. The comprehensive curriculum and hands-on experience equipped me with practical
+                            skills and the confidence to pursue my dream job.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="u-center-text u-margin-top-big">
+                <a href="#testimonials" class="btn-text">Explore More Success Stories &rarr;</a>
+            </div>
+            <div class="bg-video">
+                <video class="bg-video__content" autoplay loop muted>
+                    <source src="img/video.mp4" type="video/mp4">
+                    <source src="img/video.webm" type="video/webm">
+                    Your Browser is not supported! :|
+                </video>
+            </div>
+        </section>
+        <section class="section-booking">
+            <div class="row">
+                <div class="booking">
+                    <div class="booking__form">
+                        <form action="#" class="form">
+                            <div class="u-margin-bottom-medium-x">
+                                <h2 class="heading-secondary">
+                                    Begin Your Journey
+                                </h2>
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" id="name" placeholder="Full name" required>
+                                <label for="name" class="form__label">Full name</label>
+                            </div>
+                            <div class="form__group">
+                                <input type="email" class="form__input" placeholder="Email address" id="email" required>
+                                <label for="email" class="form__label">Email address</label>
+                            </div>
+                            <div class="form__group">
+                                <select id="course" name="course" class="form__input" required>
+                                    <option value="" selected>Select a Course</option>
+                                    <option value="beginner-bootcamp">Beginner's Bootcamp</option>
+                                    <option value="advanced-web-dev">Advanced Web Development</option>
+                                    <option value="full-stack-mastery">Full Stack Mastery</option>
+                                    <!-- Add more courses as needed -->
+                                </select>
+                            </div>
+
+                            <div class="form__group u-margin-bottom-medium">
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="Online" name="format">
+                                    <label for="Online" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        Online Course
+                                    </label>
+                                </div>
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="inPerson" name="format">
+                                    <label for="inPerson" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        In-Person Course
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form__group form__group--btn">
+                                <button class="btn btn--blue">Submit Enrollment &rarr;</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="footer__logo-box">
+            <picture class="footer__logo">
+                <source srcset="./img/logo-blue-small-1x.png 1x, ./img/logo-blue-small-2x.png 2x"
+                    media="(max-width: 37.5em)">
+                <img srcset="./img/logo-blue-1x.png 1x, ./img/logo-blue-2x.png 2x" alt="Full Logo"
+                    src="./img/logo-blue-2x.png 2x">
+            </picture>
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="https://github.com/amzilox" target="_blank"
+                                class="footer__link">About Us</a></li>
+                        <li class="footer__item"><a href="https://github.com/amzilox" target="_blank"
+                                class="footer__link">Contact</a></li>
+                        <li class="footer__item"><a href="https://github.com/amzilox" target="_blank"
+                                class="footer__link">Courses</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">FAQs</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Powered by <a href="https://github.com/amzilox" target="_blank" class="footer__link">Amzilox</a>.
+                    All rights
+                    reserved. You are welcome
+                    to use this page for personal and educational purposes. For commercial use, please contact us. A
+                    credit to <a href="https://github.com/amzilox" class="footer__link" target="_blank">CodeNest
+                        Team</a> is
+                    appreciated!
+                </p>
+            </div>
+        </div>
+    </footer>
+    <div class="popup" id="popup">
+        <div class="popup__content">
+            <a href="#section-tour" class="popup__close">X</a>
+
+            <div class="popup__left">
+                <img src="./img/code-8.jpg" alt="Pationate student" class="popup__img popup__img-mobile">
+                <img src="./img/code-11.jpg" alt="New Full-stack developer" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <h2 class="heading-secondary u-margin-bottom-small">Welcome to My Project friend!</h2>
+                <h3 class="heading-tertiary u-margin-bottom-small">A Message from a Junior Developer</h3>
+                <p class="popup__text">
+                    Greetings! I’m a junior web developer who crafted this site as a hands-on project to apply and
+                    expand my skills.
+                    Every detail of this website has been carefully designed to reflect my dedication and creativity in
+                    web development.
+                    I genuinely appreciate your time in exploring my work and navigating through this project.
+                    Your engagement not only motivates me but also helps me refine my craft. If you have any feedback or
+                    questions,
+                    please don’t hesitate to reach out. Thank you for being a part of my learning journey and for your
+                    support!
+                </p>
+                <a href="https://github.com/amzilox" class="btn btn--blue" target="_blank">Get in Touch</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+<!--
+    <section class="grid-test">
+
+        <div class="row">
+            <div class="col-1-of-2">
+                Col 1 of 2
+            </div>
+            <div class="col-1-of-2">
+                Col 1 of 2
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-3">
+                Col 1 of 3
+            </div>
+            <div class="col-1-of-3">
+                Col 1 of 3
+            </div>
+            <div class="col-1-of-3">
+                Col 1 of 3
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-3">
+                Col 1 of 3
+            </div>
+            <div class="col-2-of-3">
+                Col 2 of 3
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+            <div class="col-2-of-4">
+                Col 2 of 4
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+            <div class="col-3-of-4">
+                Col 3 of 4
+            </div>
+        </div>
+
+    </section>
+    -->
+
+</html>
