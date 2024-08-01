@@ -24,6 +24,17 @@ Welcome to CodeNest – your gateway to mastering the art of software engineerin
 - [CSS](https://developer.mozilla.org/fr/docs/Web/CSS) : Applied with advanced techniques for styling.
 - [Sass](https://sass-lang.com) : Utilized for more efficient and organized CSS management using **the 7-1 file architecture**.
 
+## Known Issues
+
+<p style="font-size: 1.4rem">⚠️JavaScript Functionality :</p>
+
+Some JavaScript features are currently not working as intended, including:
+
+- **Navigation links:** The links in the navigation menu may not function properly.
+- **Popup close functionality:** Clicking on the background to close the popup is not operational.
+
+These issues are present because <span style= "font-weight: bold">I am focusing exclusively on perfecting the CSS and Sass aspects of this project.</span> Future updates will address these JavaScript-related concerns.
+
 ## Installation
 
 <p style="font-size: 1.4rem">To set up CodeNest on your local machine, follow these steps: </p>
