@@ -42,7 +42,7 @@ These issues are present because <span style= "font-weight: bold">I am focusing 
 1. **Clone the Repository :**
 
 ```sh
-git clone https://github.com/your-username/codenest.git
+git clone https://github.com/amzilox/codenest.git
 ```
 
 ```sh
